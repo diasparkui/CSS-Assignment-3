@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+.main-wrapper {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+.main-nav {
+  padding: 15px;
+  background-color: rgb(57, 96, 18);
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.main-nav ul li {
+  margin: 0px 15px;
+  color: #ffffff;
+}
+.main-nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.table-wrapper {
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table caption {
+  margin: 15px 0px;
+  font-size: 24px;
+}
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+.layout-wrapper {
+  margin-top: 30px;
+}
+.layout-wrapper .row-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.items1 {
+  max-width: 185px;
+  width: 100%;
+  border: 5px solid orange;
+  padding: 10px;
+  font-weight: 600;
+}
+.items2 {
+  max-width: 180px;
+  border: 5px solid green;
+  padding: 10px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+.items3 {
+  width: 185px;
+  border: 5px solid yellow;
+  padding: 10px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+.items4 {
+  max-width: 180px;
+  border: 5px solid blue;
+  padding: 10px;
+  font-weight: 600;
+}
+.text {
+  background: blue;
+  align-self: self-start;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.heading {
+  text-align: center;
+  margin: 15px 0px;
+}
+.inner-heading {
+  margin: 15px 0px;
+}
+.block {
+  background-color: lightblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.inline {
+  background-color: lightcoral;
+  padding: 5px;
+  margin-right: 5px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 49px);
+  background-color: #f0f0f0;
+}
+.container .centered-div {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  margin: 0px auto;
+  width: 200px;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 150px;
+  transform: translateY(-50%);
+}
+.container-new {
+  width: 100%;
+  height: calc(100% - 49px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centered-div {
+  width: 200px;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 150px;
+}
